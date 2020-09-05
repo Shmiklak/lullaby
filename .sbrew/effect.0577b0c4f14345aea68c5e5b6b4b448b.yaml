@@ -1,0 +1,53 @@
+﻿FormatVersion: 7
+Name: "ModelImportPulse 1"
+Script: "ModelImportPulse"
+Config:
+  FilePath:
+    Type: "System.String"
+    Value: "cube.obj"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/etc/dot.png"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0.8355649,1,1"
+  ColorVariance:
+    Type: "System.Single"
+    Value: "0.5"
+  meshScale:
+    Type: "System.Double"
+    Value: "1"
+  SpriteSize:
+    Type: "System.Double"
+    Value: "5"
+  centerX:
+    Type: "System.Int32"
+    Value: "320"
+  centerY:
+    Type: "System.Int32"
+    Value: "240"
+  tilt:
+    Type: "System.Double"
+    Value: "0.3"
+  startTime:
+    Type: "System.Int32"
+    Value: "133946"
+  EndTime:
+    Type: "System.Int32"
+    Value: "178339"
+  spin:
+    Type: "System.Boolean"
+    Value: "True"
+  spinDuration:
+    Type: "System.Int32"
+    Value: "5000"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  6b99ddf989f748718d79d70e9577a0b4:
+    Name: "ModelLayer"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

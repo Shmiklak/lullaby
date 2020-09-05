@@ -1,0 +1,22 @@
+﻿FormatVersion: 7
+Name: "Binarycode 1"
+Script: "Binarycode"
+Config:
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.03726685,0.3254685,0,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  1af73014d8f24ac2aa171ff76fb8df7b:
+    Name: "binary_background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  29269da8de5744c5b51378c2f169525e:
+    Name: "cube_flare"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
